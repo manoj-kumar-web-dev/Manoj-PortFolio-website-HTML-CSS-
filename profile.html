@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0" />
+    <title>Manoj Kumar - Profile</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      function scrollTo(hash) {
+        location.hash = "#" + hash;
+      }
+      </script>
+
+  </head>
+  <body>
+    <header>
+      <h1 class="logo">Manoj Kumar</div>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#home" onclick="scrollTo('home')">Home</a></li>
+        <li><a href="#skills" onclick="scrollTo('skills')">Skills</a></li>
+        <li><a href="#aboutme">About me</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section class="home" id="home">
+      <div class="home__content">
+        <h4>Hey, I'am</h5>
+        <h2>I am a Full Stack Developer and working as a Frontend Developer</h2>
+      </div>
+    </section>
+    <section class="skills" id="skills">
+      <h3>SKILLS</h3>
+      <div class="skills__img">
+        <img src="Images/skills.png" alt="skills" />
+      </div>
+    </section>
+    <section class="about" id="aboutme">
+      <h3>ABOUT ME</h3>
+      <div class="about__content">
+        <p>I'm a Software Engineer and React JS Front-end developer. Well versed with React libraries like React Hooks, Redux, Context API, Axios etc and Major UI like React-Bootstrap, ANT Design etc.
+          Started to put hands on MongoDb.</p>
+        <p>Key-Technical skills: Html | Css | JavaScript | React JS | Es6 | React-BootStrap | ANT Design | Hooks | Context API.</p>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <h3>CONTACT</h3>
+        <form class="contact__form">
+          <div>
+            <input type="text" placeholder="Enter your name.." />
+          </div>
+          <div>
+          <input type="email" placeholder="Enter valid email.." />
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+    </section>
+    <footer>© Copyright Manoj Kumar 2020. Design by Manoj Kumar</footer>
+  </body>
+</html>
